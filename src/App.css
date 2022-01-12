@@ -9,22 +9,30 @@
     margin: 10px !important;
 }
 
+.container h5{
+    margin-left: -12px;
+    margin-top: 10px;
+}
 .moviecard{
     font-family: 'century gothic';
     margin-top: 20px !important;
     position: relative;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 .rating-container{
     width: 80px;
     height: 80px;
     border-radius: 40px;
-    border: 5px solid lime;
+    border: 4px solid lime;
     text-align: center;
     position: absolute;
     left: 27px;
     bottom: -15px;
-    color: #fff;
+   
 }
 .rating-container h5{
-    margin-top: 25px;
+    margin-top: 20px;
+    color: lime;
+    font-weight: 600;
 }

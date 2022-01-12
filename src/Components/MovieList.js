@@ -22,6 +22,7 @@ const MovieList = ()=> {
     return (
         <div>
             <div className='container'>
+                <h5>Trending Movies Today</h5>
                 <div className='row'>
                 {movies.map((movie)=>(<MovieItem key={movie.id} movie={movie}/>))
                 } 
