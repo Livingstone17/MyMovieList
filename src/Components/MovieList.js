@@ -37,7 +37,7 @@ const MovieList = ()=> {
                     <input className='input' type='text' name='query' value={query} onChange={(e)=> setQuery(e.target.value)} placeholder='search movie by name'/>
                     <button className='button' type='submit'>Search</button>
                 </form>
-                <div className='row'>
+                <div className='card-container'>
                 {movies.map((movie)=>(<MovieItem key={movie.id} movie={movie}/>))
                 } 
                 </div>
