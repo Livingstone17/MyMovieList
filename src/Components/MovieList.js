@@ -22,12 +22,11 @@ const MovieList = ()=> {
     
     const SearchMovies = async (e) =>{
         e.preventDefault();
-        alert('search movie');
         const key = 'c85933bac8b8a256dd48a7b1573cea01';
         const res = await axios.get(`https://api.themoviedb.org/3/search/movie?api_key=${key}&language=en-US&query=${query}&page=1&include_adult=false`); 
 
         setMovies(res.data.results);
-        console.log(res.data.results);
+        // console.log(res.data.results);
     } 
     
     return (
